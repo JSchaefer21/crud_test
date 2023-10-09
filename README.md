@@ -13,16 +13,16 @@ To start the project please follow these steps:
 
 ## Clone the repository
 
-Fisrt, clone this repository to your local machine using Git. Open a terminal and execute the following command:
+Fisrt, clone this repository to your local machine using Git. Open a terminal and execute the following command
 
 ```bash
-git clone https://github.com/yourusername/booking-crud.git
+git clone https://github.com/JSchaefer21/crud_test.git
 cd crud_test
 ```
 
 ## Install the dependencies
 
-Navigate to the project directory using the terminal and install the required dependencies executing the following command:
+Navigate to the project directory using the terminal and install the required dependencies executing the following command
 
 ```bash
 cd booking
@@ -31,7 +31,7 @@ yarn install
 
 ## Start JSON server
 
-This projects use JSON-server as a backend and stores the data into a JSON local file, to start the server use:
+This projects use JSON-server as a backend and stores the data into a JSON local file, to start the server use
 
 ```bash
 yarn start:server
@@ -39,7 +39,7 @@ yarn start:server
 
 ## Run development server
 
-Then you can run the server and see the project in action with the command:
+Then you can run the server and see the project in action with the command
 
 ```bash
 yarn start
