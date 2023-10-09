@@ -3,28 +3,21 @@
     {
       "status": "created",
       "createdAt": "2023-10-08T21:06:45.022Z",
-      "description": "",
+      "description": "reserva",
       "id": 1
     },
     {
-      "status": "edited",
-      "createdAt": "2023-10-08T21:06:48.309Z",
-      "description": "",
-      "id": 2,
-      "deletedAt": "2023-10-08T21:11:44.340Z"
-    },
-    {
       "status": "deleted",
-      "createdAt": "2023-10-08T21:12:01.051Z",
-      "description": "bls bls bls mucho texto",
-      "id": 3,
-      "deletedAt": "2023-10-08T21:24:50.589Z"
+      "createdAt": "2023-10-08T21:06:48.309Z",
+      "description": "hola",
+      "id": 2,
+      "deletedAt": "2023-10-09T18:49:28.460Z"
     },
     {
       "status": "created",
       "createdAt": "2023-10-09T17:28:57.072Z",
       "description": "",
-      "id": 4
+      "id": 3
     }
   ]
 }

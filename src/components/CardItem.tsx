@@ -26,18 +26,27 @@ function CardItem({ item, onDescriptionEdit, onDeleteClick }: Props) {
   return (
     <div className="card-item">
       <form onSubmit={handleSubmit}>
-        <div className="card-data">Status: {item.status}</div>
+        <p>
+          <b>Status: </b>
+          {item.status}
+        </p>
 
-        <div className="card-data">
-          Created at: {new Date(item.createdAt).toLocaleString()}
-        </div>
+        <p>
+          <b>Created at: </b>
+          {new Date(item.createdAt).toLocaleString()}
+        </p>
 
         {item.deletedAt && (
-          <div>Deleted at: {new Date(item.deletedAt).toLocaleString()}</div>
+          <p>
+            <b>Deleted at: </b>
+            {new Date(item.deletedAt).toLocaleString()}
+          </p>
         )}
 
         <div className="card-data">
-          Description:{" "}
+          <p>
+            <b>Description: </b>
+          </p>
           {isEditItem ? (
             <textarea
               className="textarea"
@@ -46,7 +55,7 @@ function CardItem({ item, onDescriptionEdit, onDeleteClick }: Props) {
               onChange={(e) => setDescription(e.target.value)}
             ></textarea>
           ) : (
-            item.description
+            <p>{item.description}</p>
           )}
         </div>
 
