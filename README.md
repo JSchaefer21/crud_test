@@ -17,7 +17,6 @@ Fisrt, clone this repository to your local machine using Git. Open a terminal an
 
 ```bash
 git clone https://github.com/JSchaefer21/crud_test.git
-cd crud_test
 ```
 
 ## Install the dependencies
@@ -25,7 +24,7 @@ cd crud_test
 Navigate to the project directory using the terminal and install the required dependencies executing the following command
 
 ```bash
-cd booking
+cd crud_test
 yarn install
 ```
 
@@ -44,3 +43,6 @@ Then you can run the server and see the project in action with the command
 ```bash
 yarn start
 ```
+
+Once the server is running, you can access the project in your browser by navigating to:
+http://localhost:3000
