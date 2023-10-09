@@ -38,7 +38,7 @@ yarn start:server
 
 ## Run development server
 
-Then you can run the server and see the project in action with the command
+Then just open another terminal and run the server to see the project in action using this command
 
 ```bash
 yarn start
