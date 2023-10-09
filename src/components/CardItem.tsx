@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Booking } from "../types";
-import "../Card.css";
 import { BookingStatus } from "../enums";
+import "../styles/Card.css";
 
 type Props = {
   item: Booking;

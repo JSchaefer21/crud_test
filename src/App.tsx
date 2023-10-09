@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import CardList from "./components/CardList";
 import Header from "./components/Header";
 import { Booking } from "./types";
-import "./App.css";
+import "./styles/App.css";
 import { getBookings } from "./api/getBookings";
 import { deleteBooking } from "./api/deleteBooking";
 import { createBooking } from "./api/createBooking";

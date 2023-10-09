@@ -1,6 +1,6 @@
 import { Booking } from "../types";
 import CardItem from "./CardItem";
-import "../Card.css";
+import "../styles/Card.css";
 
 type Props = {
   itemsList: Booking[];

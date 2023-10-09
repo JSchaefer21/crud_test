@@ -1,4 +1,4 @@
-import "../Header.css";
+import "../styles/Header.css";
 
 type Props = {
   onCreateClick: () => void;
